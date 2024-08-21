@@ -1,0 +1,76 @@
+body{
+    background-color: #222222;
+}
+
+.cabecera{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    border-top: solid 15px #496F65;
+    border-bottom: solid 15px #496F65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 54%;
+    padding: 10px;
+}
+
+span{
+    background-color: #293e38;
+    color: white;
+    padding: 7px;
+    border: solid 1px #293e38;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #A3C3BB;
+    width: 50%;
+    padding:3%;
+    border: solid 3px #293e38;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.datos1{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 5px;
+}
+
+input{
+    margin: 5px;   
+}
+
+select{
+    margin: 5px;
+}
+
+textarea{
+    height: 80px;
+}
+
+.tlt{
+    margin: 5px;
+}
+
